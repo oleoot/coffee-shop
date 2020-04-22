@@ -184,6 +184,20 @@ font-weight: 300;
 color: var(--main-color);
 font-size: 15px;
 }
+/* Discount section ===================================================================================================== */
+#discount{
+padding: 100px 0;
+background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),url(../img/bg/bg-5.png);
+background-size: cover;
+background-position: center;
+}
+#discount p{
+color: var(--main-color);
+font-style: italic;
+text-align: center;
+font-weight: 800;
+}
+
 /* Utility classes ============================================================================================================ */
 .container{
 width: 80%;
