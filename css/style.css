@@ -280,6 +280,37 @@ font-weight: 800;
 text-align: center;
 text-transform: uppercase;
 }
+/* About section ===================================================================================================== */
+#about{
+background: #ddd0d1;
+padding: 150px 0;
+}
+.about-wrap{
+grid-template-columns: 1fr 2fr;
+grid-gap: 100px;
+}
+.about-wrap div:first-of-type{
+border-right: 5px solid var(--main-color);
+}
+.about-wrap img{
+width: 250px;
+}
+.about-wrap p{
+color: var(--main-color);
+width: 80%;
+line-height: 48px;
+}
+.social-wrap{
+margin-top: 100px;
+align-items: center;
+}
+.social-wrap a{
+display: block;
+margin: 0 15px;
+}
+.social-wrap img{
+width: 60px;
+}
 /* Utility classes ============================================================================================================ */
 .container{
 width: 80%;
