@@ -1,0 +1,82 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Montserrat', sans-serif;
+}
+:root{
+--main-color: #fff;
+--secondary-color: #000;
+}
+/* Header section ===================================================================================================== */
+#header{
+height: 100vh;
+padding-top: 100px;
+background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(../img/bg/bg-1.png);
+background-size: cover;
+}
+.nav{
+align-items: center;
+}
+.nav ul, nav input{
+padding: 20px 60px;
+border-radius: 30px;
+background: var(--main-color);
+box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+}
+.nav ul{
+list-style-type: none;
+}
+.nav input{
+border: none;
+outline: none;
+font-size: 10px;
+font-weight: 600;
+font-size: 16px;
+color: #b0b1b3;
+}
+.nav input::placeholder{
+color: #b0b1b3;
+text-align: center;
+}
+.nav-a{
+text-decoration: none;
+color: var(--secondary-color);
+margin: 0 32px;
+}
+
+/* Utility classes ============================================================================================================ */
+.container{
+width: 80%;
+margin: 0 auto;
+}
+.flex-container{
+display: flex;
+justify-content: space-between;
+}
+.flex-container-center{
+display: flex;
+justify-content: center;
+}
+.grid-container{
+display: grid;
+}
+.text-xs{
+font-size: 15px;
+}
+.text-sm{
+font-size: 16px;
+font-weight: 600;
+}
+.text-md{
+font-size: 24px;
+}
+.text-lg{
+font-size: 30px;
+}
+.text-xl{
+font-size: 60px;
+}
+.text-xxl{
+font-size: 120px;
+}
