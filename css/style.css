@@ -10,7 +10,7 @@ font-family: 'Montserrat', sans-serif;
 }
 /* Header section ===================================================================================================== */
 #header{
-height: 100vh;
+height: 130vh;
 padding-top: 100px;
 background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(../img/bg/bg-1.png);
 background-size: cover;
@@ -67,6 +67,32 @@ color: var(--main-color);
 font-weight: 400;
 font-style: italic;
 }
+/* Recipe section ===================================================================================================== */
+#recipe{
+background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(../img/bg/bg-2.png);
+background-size: cover;
+background-position: center;
+padding: 300px 0;
+}
+#recipe p{
+text-align: center;
+}
+#recipe p:nth-child(1), #recipe p:nth-child(2){
+text-transform: uppercase;
+color: var(--main-color);
+}
+#recipe p:nth-child(1){
+font-weight: 600;
+}
+#recipe p:nth-child(2){
+font-weight: 800;
+font-style: italic;
+}
+#recipe p:last-of-type{
+width: 50%;
+margin: 0 auto;
+color: var(--main-color);
+}
 /* Utility classes ============================================================================================================ */
 .container{
 width: 80%;
@@ -112,4 +138,10 @@ border: 3px solid var(--main-color);
 border-radius: 30px;
 color: var(--main-color);
 text-transform: uppercase;
+}
+.line{
+width: 200px;
+background: var(--main-color);
+height: 3px;
+margin: 30px auto;
 }
