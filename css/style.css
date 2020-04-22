@@ -222,6 +222,50 @@ margin-bottom: 210px;
 .store-headline-wrap p:nth-child(2), .store-headline-wrap p:nth-child(3){
 font-weight: 600;
 }
+/* Tips section ===================================================================================================== */
+#tips{
+background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(../img/bg/bg-7.png);
+background-size: cover;
+background-position: center;
+padding: 130px 0;
+}
+.tips-wrap{
+grid-template-columns: 1fr 1fr;
+}
+.tips-wrap p{
+color: var(--main-color);
+font-style: italic;
+text-align: center;
+}
+.tips-img-wrap{
+position: relative;
+}
+.tips-video{
+width: 100%;
+margin: 50px 0 0;
+}
+.play-btn{
+position: absolute;
+top: 0;
+right: 0;
+left: 0;
+bottom: 0;
+margin: auto;
+width: 50px;
+cursor: pointer;
+}
+.tips-wrap p:nth-child(1){
+font-weight: 600;
+text-transform: uppercase;
+}
+.tips-wrap p:nth-child(3){
+font-weight: 600;
+margin: 20px 0;
+}
+.tips-wrap span{
+color: #b0b1b3;
+font-size: 16px;
+}
 /* Utility classes ============================================================================================================ */
 .container{
 width: 80%;
