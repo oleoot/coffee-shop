@@ -311,6 +311,16 @@ margin: 0 15px;
 .social-wrap img{
 width: 60px;
 }
+
+
+#footer{
+background: rgba(0,0,0,0.8);
+padding: 50px 0;
+}
+#footer p{
+color: var(--main-color);
+text-align: center;
+}
 /* Utility classes ============================================================================================================ */
 .container{
 width: 80%;
