@@ -12,14 +12,24 @@
 </head>
 
 <body>
+    <div class="hidden-menu" id="hidden-menu">
+        <ul class="flex-container hidden-ul">
+            <li class="hidden-li"><a href="#header" class="text-lg hidden-a">Home</a></li>
+            <li class="hidden-li"><a href="#about" class="text-lg hidden-a">About</a></li>
+            <li class="hidden-li"><a href="#recipe" class="text-lg hidden-a">Program</a></li>
+            <li class="hidden-li"><a href="#beverages" class="text-lg hidden-a">Gallery</a></li>
+            <li class="hidden-li"><a href="#new-store" class="text-lg hidden-a">Faqs</a></li>
+            <li class="hidden-li"><a href="#book" class="text-lg hidden-a">Contacts</a></li>
+        </ul>
+    </div>
     <section id="header">
         <div class="container">
 
             <nav class="nav flex-container">
-                <div class="burger-menu flex-container">
-                    <div class="menu-line"></div>
-                    <div class="menu-line"></div>
-                    <div class="menu-line"></div>
+                <div class="burger-menu flex-container" id="hidden-menu-btn">
+                    <div class="menu-line line1"></div>
+                    <div class="menu-line line2"></div>
+                    <div class="menu-line line3"></div>
                 </div>
                 <ul class="flex-container-center">
                     <li><a href="#header" class="text-sm nav-a">Home</a></li>
@@ -196,6 +206,7 @@
     <footer id="footer">
         <p class="text-xs">&copy; Coffee-shop 2020</p>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
