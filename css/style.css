@@ -67,6 +67,21 @@ color: var(--main-color);
 font-weight: 400;
 font-style: italic;
 }
+.burger-menu{
+display: none !important;
+width: 60px;
+height: 60px;
+flex-direction: column;
+background:var(--main-color);
+border-radius: 50%;
+padding: 20.5px 17.5px;
+}
+.menu-line{
+width: 100%;
+height: 3px;
+background: var(--secondary-color);
+border-radius: 30px;
+}
 /* Recipe section ===================================================================================================== */
 #recipe{
 background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(../img/bg/bg-2.png);
@@ -385,4 +400,132 @@ font-weight: 800;
 text-transform: uppercase;
 color: var(--main-color);
 text-align: center;
+}
+
+
+@media screen and (max-width: 1650px){
+.nav input{
+width: 200px;
+padding: 20px 20px;
+}
+}
+@media screen and (max-width: 1320px){
+.nav ul{
+margin: 0 auto;
+}
+.nav input{
+display: none;
+}
+.header-main{
+grid-template-columns: 1fr;
+}
+}
+@media screen and (max-width: 1280px){
+.container{
+width: 90%;
+}
+.input-wrap{
+width: 70%;
+}
+.tips-wrap{
+grid-template-columns: 1fr;
+}
+.about-wrap{
+grid-template-columns: 1fr;
+}
+.about-wrap div:first-of-type{
+ border-right: none;
+}
+.about-wrap img{
+display: block;
+margin: 0 auto;
+}
+.about-wrap p{
+margin: 0 auto;
+text-align: center;
+}
+}
+@media screen and (max-width: 1024px){
+    .nav-a{
+     margin: 0 15px;
+    }
+    .beverages-headline{
+    padding: 25px 50px;
+    }
+    .beverages-wrap{
+     grid-template-columns: 1fr 1fr;
+     grid-gap: 20px;
+    }
+    .store-headline-wrap{
+    padding: 0 0 50px;
+    }
+}
+@media screen and (max-width: 768px){
+    .input-wrap{
+     width: 90%;
+    }
+    .text-xxl{
+     font-size: 100px;
+    }
+    .text-sm{
+    font-size: 14px;
+    }
+    .nav-a{
+    margin: 0 10px;
+    }
+}
+@media screen and (max-width: 640px){
+    .nav ul{
+      display: none;
+    }
+    #recipe p:last-of-type{
+    width: 100%;
+    }
+    .beverages-wrap{
+    grid-template-columns: 1fr;
+    grid-gap: 100px;
+    }
+    .beverages-headline{
+     padding: 25px 10px;
+    }
+    .text-xxl{
+    font-size: 70px;
+    }
+    .text-xl {
+    font-size: 40px;
+    }
+    .text-md{
+     font-size: 20px;
+    }
+    .price-wrap p{
+    font-size: 30px;
+    }
+    #motivation{
+     padding: 250px 0;
+    }
+    .about-wrap p{
+     line-height: 30px;
+    }
+    .social-wrap img{
+     width: 40px;
+    }
+    .burger-menu{
+     display: flex !important;
+    }
+}
+@media screen and (max-width: 425px){
+    #recipe{
+    padding: 150px 0;
+    }
+    .input-wrap{
+     padding: 20px 20px;
+    }
+    .text-xxl{
+     font-size: 60px;
+    }
+}
+@media screen and (max-width: 375px){
+    .text-xxl{
+        font-size: 50px;
+       }
 }
